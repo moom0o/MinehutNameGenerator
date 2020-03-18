@@ -1,0 +1,2 @@
+# MinehutNameGenerator
+sorry
