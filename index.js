@@ -4,7 +4,7 @@ const lines = words.split(/\r?\n/);
 var unirest = require('unirest');
 lines.forEach(function(line,index,collection) {
     setTimeout(() => {
-    var req = unirest('POST', 'https://api.minehut.com/server/YOURSERVERNAME/change_name')
+    var req = unirest('POST', 'https://api.minehut.com/server/YOURSERVERID/change_name')
     .headers({
       'content-type': 'application/json',
       'Authorization': 'YOURTOKEN',
